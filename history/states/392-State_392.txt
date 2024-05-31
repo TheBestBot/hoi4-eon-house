@@ -1,7 +1,6 @@
 state={
 	history = {
         owner = DSR
-    	add_core_of = DSR
     }
 	id=392
 	name="STATE_392"
