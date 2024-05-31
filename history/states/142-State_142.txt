@@ -1,10 +1,12 @@
+
 state={
 	id=142
 	name="STATE_142"
 	provinces={
-		213 503 807 877 1208 1305 1394 1430 1667 1761 2383 2579 2979 3676 3689 3690 3723 3739 3864 3896 3923 3938 3959 
+		213 503 807 877 1208 1394 1430 1667 1761 3690 3723 3896 3923 3938 3959 
 	}
+	manpower=5000
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }

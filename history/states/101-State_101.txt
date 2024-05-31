@@ -1,10 +1,12 @@
+
 state={
 	id=101
 	name="STATE_101"
 	provinces={
-		841 1579 1835 2090 2929 3277 3411 3434 3509 
+		89 133 841 1579 1835 2062 2090 2549 2598 2929 2976 3001 3216 3217 3218 3258 3266 3267 3277 3278 3313 3343 3381 3411 3434 3509 
 	}
+	manpower=5000
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }

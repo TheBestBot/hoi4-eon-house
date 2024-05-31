@@ -1,10 +1,12 @@
+
 state={
 	id=360
 	name="STATE_360"
 	provinces={
-		729 5531 5565 5578 
+		729 5531 5533 5565 5578 
 	}
+	manpower=5000
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }
