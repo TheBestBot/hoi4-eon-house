@@ -1,4 +1,8 @@
 state={
+	history = {
+        owner = DSR
+    	add_core_of = DSR
+    }
 	id=44
 	name="STATE_44"
 	provinces={

@@ -1,0 +1,45 @@
+capital = 401
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+oob = DSR_1936
+
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.5
+add_political_power = 150
+set_convoys = 0
+
+add_ideas = {
+	#laws
+	volunteer_only
+	free_trade
+	civilian_economy
+
+	#other ideas
+
+
+}
+
+set_technology = {
+
+
+}
+
+
+set_popularities = {
+	democratic = 100
+	communism = 0
+	fascism = 0
+	neutrality = 0
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.1.10"
+	election_frequency = 48
+	elections_allowed = yes
+}
