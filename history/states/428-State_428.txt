@@ -1,0 +1,10 @@
+state={
+	id=428
+	name="STATE_428"
+	provinces={
+		86 682 822 1223 6013 
+	}
+	buildings_max_level_factor=1.000
+        manpower=5000
+        state_category = rural
+}
