@@ -1,4 +1,14 @@
 state={
+	history={
+		victory_points = {
+			672
+			30
+		}
+		owner = DSR
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	id=412
 	name="STATE_412"
 	provinces={

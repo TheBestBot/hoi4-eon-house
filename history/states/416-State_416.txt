@@ -1,6 +1,12 @@
 state={
 	id=416
 	name="STATE_416"
+	history={
+		owner = DSR
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	provinces={
 		1815 2236 2633 5919 5926 5934 5939 5943 5946 5949 5950 5958 5970 
 	}

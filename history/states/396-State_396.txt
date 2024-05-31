@@ -1,4 +1,10 @@
 state={
+	history={
+		owner = DSR
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	id=396
 	name="STATE_396"
 	provinces={

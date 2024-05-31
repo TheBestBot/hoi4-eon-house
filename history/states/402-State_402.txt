@@ -1,10 +1,16 @@
 state={
 	id=402
 	name="STATE_402"
+	history={
+		owner = DSR
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	provinces={
 		526 922 1500 1882 2008 2039 2107 2156 2225 2595 5831 5839 5843 5852 5858 5868 5869 5874 5878 5881 5882 5892 5897 5911 
 	}
 	buildings_max_level_factor=1.000
-        manpower=5000
+        manpower=20000
         state_category = rural
 }
