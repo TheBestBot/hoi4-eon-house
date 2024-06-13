@@ -1,0 +1,305 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_DSR_utilize_galvanized_square_steel-646318"
+		texturefile = "gfx/interface/goals/GFX_DSR_utilize_galvanized_square_steel-646318.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_DSR_utilize_galvanized_square_steel-646318_shine"
+		texturefile = "gfx/interface/goals/GFX_DSR_utilize_galvanized_square_steel-646318.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_utilize_galvanized_square_steel-646318.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_utilize_galvanized_square_steel-646318.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_DSR_install_eco_friendly_wood_veneer-645562"
+		texturefile = "gfx/interface/goals/GFX_DSR_install_eco_friendly_wood_veneer-645562.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_DSR_install_eco_friendly_wood_veneer-645562_shine"
+		texturefile = "gfx/interface/goals/GFX_DSR_install_eco_friendly_wood_veneer-645562.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_install_eco_friendly_wood_veneer-645562.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_install_eco_friendly_wood_veneer-645562.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_DSR_commandeer_civilian_laptops-646170"
+		texturefile = "gfx/interface/goals/GFX_DSR_commandeer_civilian_laptops-646170.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_DSR_commandeer_civilian_laptops-646170_shine"
+		texturefile = "gfx/interface/goals/GFX_DSR_commandeer_civilian_laptops-646170.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_commandeer_civilian_laptops-646170.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_commandeer_civilian_laptops-646170.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_DSR_send_the_kids_to_high_school-645738"
+		texturefile = "gfx/interface/goals/GFX_DSR_send_the_kids_to_high_school-645738.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_DSR_send_the_kids_to_high_school-645738_shine"
+		texturefile = "gfx/interface/goals/GFX_DSR_send_the_kids_to_high_school-645738.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_send_the_kids_to_high_school-645738.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_send_the_kids_to_high_school-645738.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_DSR_send_the_farmers_to_the_factories-645921"
+		texturefile = "gfx/interface/goals/GFX_DSR_send_the_farmers_to_the_factories-645921.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_DSR_send_the_farmers_to_the_factories-645921_shine"
+		texturefile = "gfx/interface/goals/GFX_DSR_send_the_farmers_to_the_factories-645921.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_send_the_farmers_to_the_factories-645921.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_send_the_farmers_to_the_factories-645921.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_DSR_forge_some_rubber-645604"
+		texturefile = "gfx/interface/goals/GFX_DSR_forge_some_rubber-645604.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_DSR_forge_some_rubber-645604_shine"
+		texturefile = "gfx/interface/goals/GFX_DSR_forge_some_rubber-645604.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_forge_some_rubber-645604.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_forge_some_rubber-645604.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_DSR_expand_the_rubber_plants-645633"
+		texturefile = "gfx/interface/goals/GFX_DSR_expand_the_rubber_plants-645633.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_DSR_expand_the_rubber_plants-645633_shine"
+		texturefile = "gfx/interface/goals/GFX_DSR_expand_the_rubber_plants-645633.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_expand_the_rubber_plants-645633.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_expand_the_rubber_plants-645633.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_DSR_touch_grass-646299"
+		texturefile = "gfx/interface/goals/GFX_DSR_touch_grass-646299.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_DSR_touch_grass-646299_shine"
+		texturefile = "gfx/interface/goals/GFX_DSR_touch_grass-646299.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_touch_grass-646299.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_DSR_touch_grass-646299.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}

@@ -1,0 +1,212 @@
+focus_tree = {
+	id = baseindustry
+	continuous_focus_position = { x = 150 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DSR
+		}
+	}
+	#Utilize Galvanized Square Steel
+	focus = {
+		id = DSR_utilize_galvanized_square_steel
+		icon = GFX_DSR_utilize_galvanized_square_steel-646318
+		x = 1
+		y = 2
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_the_1460_day_plan  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Install Eco Friendly Wood Veneer
+	focus = {
+		id = DSR_install_eco_friendly_wood_veneer
+		icon = GFX_DSR_install_eco_friendly_wood_veneer-645562
+		x = 1
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_utilize_galvanized_square_steel  }
+	}
+
+	#The 1460 Day Plan
+	focus = {
+		id = DSR_the_1460_day_plan
+		icon = GFX_goal_generic_production
+		x = 3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Get Borrowed Screws
+	focus = {
+		id = DSR_get_borrowed_screws
+		icon = GFX_goal_continuous_naval_production
+		x = 1
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_install_eco_friendly_wood_veneer  }
+	}
+
+	#Commandeer Civilian Laptops
+	focus = {
+		id = DSR_commandeer_civilian_laptops
+		icon = GFX_DSR_commandeer_civilian_laptops-646170
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = DSR_the_1460_day_plan  }
+	}
+
+	#Send the Kids to Middle School
+	focus = {
+		id = DSR_send_the_kids_to_middle_school
+		icon = GFX_focus_generic_military_academy
+		x = 5
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = DSR_commandeer_civilian_laptops  }
+	}
+
+	#Outlaw Fortnite
+	focus = {
+		id = DSR_outlaw_fortnite
+		icon = GFX_goal_generic_major_alliance
+		x = 5
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = DSR_send_the_kids_to_high_school  } prerequisite = { focus = DSR_forge_some_rubber  }
+	}
+
+	#Send the Kids to High School
+	focus = {
+		id = DSR_send_the_kids_to_high_school
+		icon = GFX_DSR_send_the_kids_to_high_school-645738
+		x = 5
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = DSR_send_the_kids_to_middle_school  }
+	}
+
+	#Send the Farmers to the Factories
+	focus = {
+		id = DSR_send_the_farmers_to_the_factories
+		icon = GFX_DSR_send_the_farmers_to_the_factories-645921
+		x = 3
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_the_1460_day_plan  } prerequisite = { focus = DSR_utilize_galvanized_square_steel  }
+	}
+
+	#Forge Some Rubber
+	focus = {
+		id = DSR_forge_some_rubber
+		icon = GFX_DSR_forge_some_rubber-645604
+		x = 7
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_the_1460_day_plan  } prerequisite = { focus = DSR_send_the_kids_to_middle_school  }
+	}
+
+	#Create the Military-Industrial Complex
+	focus = {
+		id = DSR_create_the_militaryindustrial_complex
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_get_borrowed_screws  } prerequisite = { focus = DSR_send_the_farmers_to_the_factories  }
+	}
+
+	#Expand the Rubber Plants
+	focus = {
+		id = DSR_expand_the_rubber_plants
+		icon = GFX_DSR_expand_the_rubber_plants-645633
+		x = 7
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_forge_some_rubber  }
+	}
+
+	#Touch Grass
+	focus = {
+		id = DSR_touch_grass
+		icon = GFX_DSR_touch_grass-646299
+		x = 5
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_outlaw_fortnite  }
+	}
+
+	#Legalize Edging
+	focus = {
+		id = DSR_legalize_edging
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 3
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = DSR_send_the_farmers_to_the_factories  }
+	}
+
+}
