@@ -5,8 +5,15 @@ state={
 	provinces={
 		15 26 43 132 240 273 382 529 693 941 1791 2110 2507 2644 2775 2898 3106 3113 3133 3134 3140 3145 3153 3155 3159 3163 3165 3170 3173 3176 3181 3183 3187 3189 3190 3191 
 	}
-	manpower=5000
+	history={
+		owner = DNR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=150000
+    state_category = large_city
 }
