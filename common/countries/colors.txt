@@ -845,3 +845,7 @@ NIP = {
 	color = rgb { 148 147 148 }
 	color_ui = rgb { 148 147 148 }
 }
+WIP = {
+	color = rgb { 176 163 193 }
+	color_ui = rgb { 176 163 193 }
+}

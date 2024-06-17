@@ -11,16 +11,16 @@ characters = {	unnamed = {
 			cost = 150
 		}
 	}
-	RlNbtLUv = {
-		name = RlNbtLUv
+	vJUHRNjZ = {
+		name = vJUHRNjZ
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/the-1460-day-plan-ideas/RlNbtLUv-1104.dds"
+			small = "gfx/interface/ideas/the-1460-day-plan-ideas/vJUHRNjZ-1104.dds"
 			}
 		}
 		advisor = {
 			slot = theorist
-			idea_token = rlnbtluv
+			idea_token = vjuhrnjz
 			available = {
 				every_country = {
 

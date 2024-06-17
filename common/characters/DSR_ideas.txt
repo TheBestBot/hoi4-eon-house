@@ -2,7 +2,7 @@ characters = {	not_dan = {
 		name = not_dan
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/DSR/epauXCEV-1104.dds"
+			small = "gfx/interface/ideas/DSR/GDqQkvAL-1104.dds"
 			}
 		}
 		advisor = {

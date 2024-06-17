@@ -127,8 +127,8 @@ global_building_slots_factor = 0.6
 	}
 	theorist = {
 
-		RlNbtLUv = {
-			picture = RlNbtLUv-1104
+		vJUHRNjZ = {
+			picture = vJUHRNjZ-1104
 			available = {
 				every_country = {
 

@@ -10,8 +10,5 @@ bookmarks = {
 			history = "the_beginning_of_the_lower_war_DSR"
 			ideology = democratic
 		}
-		"" = {
-			history = "the_beginning_of_the_lower_war_"
-		}
 	}
 }

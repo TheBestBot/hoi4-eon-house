@@ -6,12 +6,38 @@ set_war_support = 0.4
 set_convoys = 0
 create_faction = "United Kitchen Empire"
 
+add_to_faction = SCA,WWR,GGE,NIP,WIP
 
 add_ideas = {
 	limited_conscription
 	low_economic_mobilisation
 }
 
+
+set_autonomy = {
+	target = SCA
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = WWR
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = GGE
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = WIP
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = NIP
+	autonomous_state = autonomy_puppet
+}
 
 #Starting tech
 set_technology = {

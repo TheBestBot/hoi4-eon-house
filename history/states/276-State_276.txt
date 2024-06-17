@@ -9,7 +9,7 @@ state={
         owner = WWR
 		buildings = {
 			infrastructure = 3
-			arms_factory = 4
+			arms_factory = 2
 			industrial_complex = 5
 		}
     }

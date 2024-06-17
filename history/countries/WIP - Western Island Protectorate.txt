@@ -1,0 +1,48 @@
+﻿oob = "WIP_1936"
+capital = 1
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.2
+set_convoys = 0
+
+
+add_ideas = {
+	disarmed_nation
+	civilian_economy
+}
+
+
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "WIP_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.4.16"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
+
+
+
