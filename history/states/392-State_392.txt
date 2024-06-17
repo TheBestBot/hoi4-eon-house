@@ -8,6 +8,6 @@ state={
 		493 1023 1185 1206 1243 1465 1826 2172 2494 2620 2772 2875 2951 5723 5760 5764 5768 5777 5783 5789 5797 5813 5818 5828 5836 
 	}
 	buildings_max_level_factor=1.000
-        manpower=5000
+        manpower=50000
         state_category = rural
 }

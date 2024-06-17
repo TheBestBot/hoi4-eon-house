@@ -11,6 +11,6 @@ state={
 		106 1229 1399 1648 2333 2455 5796 5807 5819 5822 5824 5833 5844 5853 5855 5859 5861 5863 5871 5876 5886 5890 
 	}
 	buildings_max_level_factor=1.000
-        manpower=5000
+        manpower=50000
         state_category = rural
 }
