@@ -1,12 +1,4 @@
 ideas = {
-	army_chief = {
-
-		unnamed = {
-			picture = unnamed-1108
-			cost = 150
-		}
-
-	}
 	country = {
 
 		the_1460_day_long_plan = {
@@ -119,24 +111,6 @@ global_building_slots_factor = 0.4
 				global_building_slots = 3
 
 global_building_slots_factor = 0.6
-
-
-			}
-		}
-
-	}
-	theorist = {
-
-		vJUHRNjZ = {
-			picture = vJUHRNjZ-1104
-			available = {
-				every_country = {
-
-}
-
-			}
-			modifier = {
-				land_doctrine_cost_factor = -0.1naval_doctrine_cost_factor = -0.1air_doctrine_cost_factor = -0.1
 
 
 			}

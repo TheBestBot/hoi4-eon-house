@@ -1,10 +1,4 @@
 spriteTypes = { 
-	##Icon For: Unnamed
-	SpriteType = { 
-		name = "GFX_idea_unnamed-1108"
-		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/unnamed-1108.dds"
-	}
-
 	##Icon For: The 1460 Day Long Plan
 	SpriteType = { 
 		name = "GFX_idea_the_1460_day_long_plan-1060"
@@ -63,12 +57,6 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_idea_fantastic_galvanized_square_steel_usage-1468"
 		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/fantastic_galvanized_square_steel_usage-1468.dds"
-	}
-
-	##Icon For: Unnamed
-	SpriteType = { 
-		name = "GFX_idea_vJUHRNjZ-1104"
-		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/vJUHRNjZ-1104.dds"
 	}
 
  
