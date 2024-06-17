@@ -2,13 +2,17 @@
 state={
 	id=223
 	name="STATE_223"
-	provinces={
-		883 1224 1498 1568 2000 2099 2137 4343 4395 4703 4755 4840 
+
+	history={
+		owner = CKE
+
 	}
-	history = {
-        owner = CKE
-    }
+
+	provinces={
+		1224 1568 2000 2137 4703 4755 4840 
+	}
+	manpower=35000
 	buildings_max_level_factor=1.000
-    manpower=35000
-    state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }
