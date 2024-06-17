@@ -1,0 +1,17 @@
+bookmarks = {
+	bookmark = {
+		name = "the_beginning_of_the_lower_war_name"
+		desc = "the_beginning_of_the_lower_war_desc"
+		date = 1936.1.1.12
+	picture = "the_beginning_of_the_lower_war-1"
+		default_country = "DSR"
+		default = yes
+		"DSR" = {
+			history = "the_beginning_of_the_lower_war_DSR"
+			ideology = democratic
+		}
+		"" = {
+			history = "the_beginning_of_the_lower_war_"
+		}
+	}
+}

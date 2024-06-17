@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: The Beginning of the Upper War
+	SpriteType = { 
+		name = "the_beginning_of_the_upper_war-1"
+		texturefile = "gfx/interface/bookmarks/the_beginning_of_the_upper_war-bookmark/the_beginning_of_the_upper_war-1.dds"
+	}
+

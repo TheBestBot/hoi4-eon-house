@@ -67,8 +67,8 @@ spriteTypes = {
 
 	##Icon For: Unnamed
 	SpriteType = { 
-		name = "GFX_idea_wiYaqsLE-1104"
-		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/wiYaqsLE-1104.dds"
+		name = "GFX_idea_TlnovdIQ-1104"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/TlnovdIQ-1104.dds"
 	}
 
  

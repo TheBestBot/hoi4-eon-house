@@ -103,34 +103,26 @@ focus_tree = {
 		prerequisite = { focus = DSR_install_eco_friendly_wood_veneer  }
 		completion_reward = {
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = industrial_complex
-					level = 3
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -138,7 +130,7 @@ focus_tree = {
 			
 			add_timed_idea = {
 			    idea = debt_repayments_to_aunt
-			    days = 360
+			    days = 210
 			}
 			
 			
@@ -334,7 +326,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = DSR_get_borrowed_screws  } prerequisite = { focus = DSR_send_the_farmers_to_the_factories  }
 		available = {
-			num_of_factories > 50
+			num_of_factories > 60
 			
 			
 		}
@@ -415,6 +407,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = DSR_send_the_farmers_to_the_factories  }
+		mutually_exclusive = { focus = DSR_mandate_a_gf_or_bf  }
 		available = {
 			has_political_power > 100
 		}
@@ -499,7 +492,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = DSR_utilize_galvanized_square_steel  }
 		available = {
-			num_of_civilian_factories > 15
+			num_of_civilian_factories > 30
 			
 			
 		}
@@ -526,7 +519,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = DSR_more_galvanized_square_steel  }
 		available = {
-			num_of_civilian_factories > 30
+			num_of_civilian_factories > 40
 		}
 		completion_reward = {
 			swap_ideas = {
