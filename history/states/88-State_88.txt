@@ -4,7 +4,15 @@ state={
 	provinces={
 		1942 2071 2759 3236 3299 3328 3336 3366 3389 3424 
 	}
+	history = {
+        owner = NWR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=6500000
+    state_category = city
 }

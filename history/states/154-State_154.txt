@@ -5,8 +5,16 @@ state={
 	provinces={
 		1179 1795 2243 4137 4186 4205 4268 
 	}
-	manpower=5000
+	history={
+		owner = DRB
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	manpower=4000000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

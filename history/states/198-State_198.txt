@@ -4,7 +4,13 @@ state={
 	provinces={
 		16 2591 2877 3084 4053 4075 4083 4161 
 	}
+	history = {
+        owner = SCP
+		buildings = {
+			infrastructure = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=350000
+    state_category = rural
 }

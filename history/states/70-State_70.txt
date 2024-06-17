@@ -4,7 +4,13 @@ state={
 	provinces={
 		1078 1949 2452 3231 3365 
 	}
+	history = {
+        owner = NWR
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=250000
+    state_category = rural
 }

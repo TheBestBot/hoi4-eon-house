@@ -1,0 +1,13 @@
+﻿l_english:
+EFS_democratic:5 "Empty Floor State"
+EFS_democratic_DEF:5 "The Empty Floor State"
+EFS_democratic_ADJ:5 "Empty Floor State citizen"
+EFS_fascism:5 "Empty Floor State"
+EFS_fascism_DEF:5 "The Empty Floor State"
+EFS_fascism_ADJ:5 "Empty Floor State citizen"
+EFS_communism:5 "Empty Floor State"
+EFS_communism_DEF:5 "The Empty Floor State"
+EFS_communism_ADJ:5 "Empty Floor State citizen"
+EFS_neutrality:5 "Empty Floor State"
+EFS_neutrality_DEF:5 "The Empty Floor State"
+EFS_neutrality_ADJ:5 "Empty Floor State citizen"

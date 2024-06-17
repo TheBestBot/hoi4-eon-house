@@ -5,8 +5,15 @@ state={
 	provinces={
 		890 973 1347 1442 1596 2018 2307 2509 3887 3939 3952 3997 3998 4060 4061 4062 4107 4111 4118 4119 
 	}
-	manpower=5000
+	history = {
+        owner = LRB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=3500000
+    state_category = large_city
 }

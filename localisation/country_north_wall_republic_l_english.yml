@@ -1,0 +1,13 @@
+﻿l_english:
+NWR_democratic:5 "North Wall Republic"
+NWR_democratic_DEF:5 "The North Wall Republic"
+NWR_democratic_ADJ:5 "North Wall Republic citizen"
+NWR_fascism:5 "North Wall Reich"
+NWR_fascism_DEF:5 "The North Wall Reich"
+NWR_fascism_ADJ:5 "North Wall Reich citizen"
+NWR_communism:5 "North Wall Socialist Republic"
+NWR_communism_DEF:5 "The North Wall Socialist Republic"
+NWR_communism_ADJ:5 "North Wall Socialist Republic citizen"
+NWR_neutrality:5 "North Wall Empire"
+NWR_neutrality_DEF:5 "The North Wall Empire"
+NWR_neutrality_ADJ:5 "North Wall Empire citizen"

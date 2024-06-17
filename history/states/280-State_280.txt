@@ -5,8 +5,13 @@ state={
 	provinces={
 		274 800 1128 1160 1386 1773 1862 2357 2629 2677 2878 4827 4883 4916 4944 4998 5040 5074 5098 5131 
 	}
-	manpower=5000
+	history = {
+        owner = TDL
+		buildings = {
+			infrastructure = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=350000
+    state_category = rural
 }

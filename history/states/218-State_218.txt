@@ -4,7 +4,13 @@ state={
 	provinces={
 		76 835 1323 1775 2009 2603 4162 4208 4230 4236 4244 4257 4279 4283 4318 4367 4409 
 	}
+	history = {
+        owner = LRB
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=350000
+    state_category = rural
 }

@@ -5,8 +5,13 @@ state={
 	provinces={
 		363 369 489 809 1464 1605 2083 2196 2628 3010 3022 3223 3279 3358 3404 3453 3488 
 	}
-	manpower=5000
+	history = {
+        owner = DDR
+		buildings = {
+			infrastructure = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=350000
+    state_category = rural
 }

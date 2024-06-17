@@ -22,7 +22,7 @@ ideas = {
 			}
 			traits = { military_theorist}
 			ledger = army
-			picture = "SzQkOPRs-1104"
+			picture = "ryztnOmW-1104"
 		}
 }
 	army_chief = {

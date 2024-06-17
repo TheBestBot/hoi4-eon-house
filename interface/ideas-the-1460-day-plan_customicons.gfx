@@ -59,5 +59,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/fantastic_galvanized_square_steel_usage-1468.dds"
 	}
 
+	##Icon For: The Coming Storm
+	SpriteType = { 
+		name = "GFX_idea_the_coming_storm-1055"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/the_coming_storm-1055.dds"
+	}
+
  
  }

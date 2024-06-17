@@ -4,7 +4,13 @@ state={
 	provinces={
 		238 490 1499 1694 1699 1863 2208 2542 2682 3018 5288 5351 5451 5497 5504 
 	}
+	history = {
+        owner = EFS
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=50000
+    state_category = wasteland
 }

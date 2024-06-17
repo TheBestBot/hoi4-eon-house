@@ -4,7 +4,13 @@ state={
 	provinces={
 		480 1258 1718 2082 2088 2564 2604 3512 3530 3559 3567 
 	}
+	history = {
+        owner = DRE
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=350000
+    state_category = rural
 }

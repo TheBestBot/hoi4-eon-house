@@ -5,8 +5,16 @@ state={
 	provinces={
 		2817 3053 3949 3982 3983 4005 4030 4034 4058 4094 4098 4146 4149 
 	}
-	manpower=5000
+	history={
+		owner = DTP
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	manpower=7500000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

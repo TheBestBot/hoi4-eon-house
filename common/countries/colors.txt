@@ -821,6 +821,10 @@ DSR = {
 	color = rgb { 71 160 62 }
 	color_ui = rgb { 71 160 62 }
 }
+LHA = {
+	color = rgb { 130 133 136 }
+	color_ui = rgb { 130 133 136 }
+}
 DNR = {
 	color = rgb { 69 223 85 }
 	color_ui = rgb { 69 223 85 }
@@ -848,4 +852,64 @@ NIP = {
 WIP = {
 	color = rgb { 176 163 193 }
 	color_ui = rgb { 176 163 193 }
+}
+DRE = {
+	color = rgb { 51 47 64 }
+	color_ui = rgb { 51 47 64 }
+}
+NWR = {
+	color = rgb { 63 84 187 }
+	color_ui = rgb { 63 84 187 }
+}
+DTP = {
+	color = rgb { 33 88 127 }
+	color_ui = rgb { 33 88 127 }
+}
+DCC = {
+	color = rgb { 130 38 35 }
+	color_ui = rgb { 130 38 35 }
+}
+LEA = {
+	color = rgb { 22 14 74 }
+	color_ui = rgb { 22 14 74 }
+}
+DRB = {
+	color = rgb { 108 104 119 }
+	color_ui = rgb { 108 104 119 }
+}
+DDR = {
+	color = rgb { 176 170 200 }
+	color_ui = rgb { 176 170 200 }
+}
+FCP = {
+	color = rgb { 153 161 207 }
+	color_ui = rgb { 153 161 207 }
+}
+SCP = {
+	color = rgb { 130 138 200 }
+	color_ui = rgb { 130 138 200 }
+}
+TDL = {
+	color = rgb { 108 23 11 }
+	color_ui = rgb { 108 23 11 }
+}
+LRB = {
+	color = rgb { 171 100 38 }
+	color_ui = rgb { 171 100 38 }
+}
+COB = {
+	color = rgb { 194 27 13 }
+	color_ui = rgb { 194 27 13 }
+}
+MFP = {
+	color = rgb { 65 63 63 }
+	color_ui = rgb { 65 63 63 }
+}
+TCP = {
+	color = rgb { 155 57 38 }
+	color_ui = rgb { 155 57 38 }
+}
+EFS = {
+	color = rgb { 92 106 166 }
+	color_ui = rgb { 92 106 166 }
 }

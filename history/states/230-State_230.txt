@@ -5,8 +5,15 @@ state={
 	provinces={
 		59 1871 2005 2642 4427 
 	}
-	manpower=5000
+	history = {
+        owner = MFP
+		buildings = {
+			infrastructure = 2
+			arms_factory = 4
+			industrial_complex = 3
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=3500000
+    state_category = large_city
 }

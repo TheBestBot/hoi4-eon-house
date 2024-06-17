@@ -5,8 +5,13 @@ state={
 	provinces={
 		678 2702 2910 5631 5656 5657 5673 5678 5684 5699 
 	}
-	manpower=5000
+	history = {
+        owner = LEA
+		buildings = {
+			infrastructure = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=200000
+    state_category = rural
 }

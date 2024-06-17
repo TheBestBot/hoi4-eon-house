@@ -4,7 +4,15 @@ state={
 	provinces={
 		344 495 652 1155 1337 2784 5456 5476 5488 5507 5510 5534 5550 5562 5587 5600 
 	}
+	history = {
+        owner = LEA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=2500000
+    state_category = town
 }

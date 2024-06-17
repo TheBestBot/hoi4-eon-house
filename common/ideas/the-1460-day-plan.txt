@@ -115,5 +115,9 @@ global_building_slots_factor = 0.6
 
 			}
 		}
+
+		the_coming_storm = {
+			picture = the_coming_storm-1055
+		}
 	}
 }

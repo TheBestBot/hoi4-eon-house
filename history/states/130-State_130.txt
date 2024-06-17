@@ -4,7 +4,15 @@ state={
 	provinces={
 		571 1176 1286 1345 1598 1809 2174 2717 2880 2952 2965 3071 3647 3692 3827 3931 4041 
 	}
+	history = {
+        owner = COB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 6
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=9500000
+    state_category = metropolis
 }

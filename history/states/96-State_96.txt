@@ -5,8 +5,14 @@ state={
 	provinces={
 		520 553 606 634 1232 1283 2113 2291 3357 3418 3452 3471 3479 3499 3517 3551 3565 
 	}
-	manpower=5000
+	history = {
+        owner = FCP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=750000
+    state_category = town
 }

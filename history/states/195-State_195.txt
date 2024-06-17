@@ -4,7 +4,13 @@ state={
 	provinces={
 		338 1328 1663 2151 3984 4006 4035 4071 4100 4128 4180 
 	}
+	history = {
+        owner = TCP
+		buildings = {
+			infrastructure = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=350000
+    state_category = rural
 }
