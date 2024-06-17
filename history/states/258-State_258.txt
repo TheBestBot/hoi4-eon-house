@@ -5,14 +5,18 @@ state={
 
 	history={
 		owner = CKE
-
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
 	}
 
 	provinces={
 		324 2209 4912 4956 
 	}
-	manpower=250000
+	manpower=7500000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 	local_supplies=0.000
 }
