@@ -477,6 +477,11 @@ focus_tree = {
 			add_political_power = -100
 			
 			
+			add_stability = 0.15
+			
+			add_war_support = 0.1
+			
+			
 		}
 	}
 

@@ -4,7 +4,10 @@ state={
 	provinces={
 		812 974 1497 1921 1967 2100 5418 5448 5475 5521 5548 
 	}
+	history = {
+        owner = SCA
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
+        manpower=25000
         state_category = rural
 }

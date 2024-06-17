@@ -821,3 +821,27 @@ DSR = {
 	color = rgb { 71 160 62 }
 	color_ui = rgb { 71 160 62 }
 }
+DNR = {
+	color = rgb { 69 223 85 }
+	color_ui = rgb { 69 223 85 }
+}
+CKE = {
+	color = rgb { 110 99 100 }
+	color_ui = rgb { 110 99 100 }
+}
+SCA = {
+	color = rgb { 128 27 21 }
+	color_ui = rgb { 128 27 21 }
+}
+WWR = {
+	color = rgb { 45 41 191 }
+	color_ui = rgb { 45 41 191 }
+}
+GGE = {
+	color = rgb { 54 95 56 }
+	color_ui = rgb { 54 95 56 }
+}
+NIP = {
+	color = rgb { 148 147 148 }
+	color_ui = rgb { 148 147 148 }
+}

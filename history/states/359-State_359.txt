@@ -5,8 +5,10 @@ state={
 	provinces={
 		373 420 1049 1129 1233 1348 1727 1786 1842 2306 2330 2866 2977 5568 5589 5609 5619 5627 5639 5653 
 	}
-	manpower=5000
+	history = {
+        owner = GGE
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+        manpower=25000
+        state_category = rual
 }

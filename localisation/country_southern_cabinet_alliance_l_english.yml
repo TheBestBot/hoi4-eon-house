@@ -1,0 +1,13 @@
+﻿l_english:
+SCA_democratic:5 "Southern Cabinet Alliance"
+SCA_democratic_DEF:5 "The Southern Cabinet Alliance"
+SCA_democratic_ADJ:5 "Southern Cabinet Alliance citizen"
+SCA_fascism:5 "Southern Cabinet Reich"
+SCA_fascism_DEF:5 "The Southern Cabinet Reich"
+SCA_fascism_ADJ:5 "Southern Cabinet Reich citizen"
+SCA_communism:5 "Southern Cabinet Socialist Republic"
+SCA_communism_DEF:5 "The Southern Cabinet Socialist Republic"
+SCA_communism_ADJ:5 "Southern Cabinet Socialist Republic citizen"
+SCA_neutrality:5 "Southern Cabinet Empire"
+SCA_neutrality_DEF:5 "The Southern Cabinet Empire"
+SCA_neutrality_ADJ:5 "Southern Cabinet Empire citizen"

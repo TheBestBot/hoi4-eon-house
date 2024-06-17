@@ -11,16 +11,16 @@ characters = {	unnamed = {
 			cost = 150
 		}
 	}
-	TlnovdIQ = {
-		name = TlnovdIQ
+	RlNbtLUv = {
+		name = RlNbtLUv
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/the-1460-day-plan-ideas/TlnovdIQ-1104.dds"
+			small = "gfx/interface/ideas/the-1460-day-plan-ideas/RlNbtLUv-1104.dds"
 			}
 		}
 		advisor = {
 			slot = theorist
-			idea_token = tlnovdiq
+			idea_token = rlnbtluv
 			available = {
 				every_country = {
 

@@ -1,1 +1,7 @@
 DSR = "countries/Dan Southern Republic.txt"
+DNR = "countries/Dan Northern Republic.txt"
+CKE = "countries/Central Kitchen Empire.txt"
+SCA = "countries/Southern Cabinet Alliance.txt"
+WWR = "countries/West Wall Republic.txt"
+GGE = "countries/Garage Entrance Empire.txt"
+NIP = "countries/Northern Island Protecterate.txt"

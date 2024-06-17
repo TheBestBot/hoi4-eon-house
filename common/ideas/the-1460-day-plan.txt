@@ -100,13 +100,6 @@ civilian_factory_use = 4
 
 
 			}
-			on_remove = {
-				add_stability = 0.15
-
-add_war_support = 0.15
-
-
-			}
 		}
 
 		improved_galvanized_square_steel_usage = {
@@ -134,8 +127,8 @@ global_building_slots_factor = 0.6
 	}
 	theorist = {
 
-		TlnovdIQ = {
-			picture = TlnovdIQ-1104
+		RlNbtLUv = {
+			picture = RlNbtLUv-1104
 			available = {
 				every_country = {
 
