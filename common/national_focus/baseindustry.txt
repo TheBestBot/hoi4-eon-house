@@ -11,33 +11,24 @@ focus_tree = {
 	#Utilize Galvanized Square Steel
 	focus = {
 		id = DSR_utilize_galvanized_square_steel
-		icon = GFX_DSR_utilize_galvanized_square_steel-646318
-		x = 1
+		icon = GFX_focus_generic_industry_1
+		x = 2
 		y = 2
-		cost = 20
+		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = DSR_the_1460_day_plan  }
 		completion_reward = {
+			add_ideas = using_galvanized_square_steel
 			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = industrial_complex
-			size > 0
-			include_locked = yes
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-			type = industrial_complex
-			level = 1
-			instant_build = yes
-			}
-			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-			}
-			
-			
 		}
 	}
 
@@ -45,24 +36,57 @@ focus_tree = {
 	focus = {
 		id = DSR_install_eco_friendly_wood_veneer
 		icon = GFX_DSR_install_eco_friendly_wood_veneer-645562
-		x = 1
-		y = 3
+		x = 2
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = DSR_utilize_galvanized_square_steel  }
+		completion_reward = {
+			add_stability = 0.15
+			
+			
+			add_ideas = using_eco_friendly_wood_veneer
+			
+			
+			
+		}
 	}
 
 	#The 1460 Day Plan
 	focus = {
 		id = DSR_the_1460_day_plan
 		icon = GFX_goal_generic_production
-		x = 3
+		x = 6
 		y = 1
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_timed_idea = {
+			    idea = the_1460_day_long_plan
+			    days = 1460
+			}
+			
+			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -70,143 +94,449 @@ focus_tree = {
 	focus = {
 		id = DSR_get_borrowed_screws
 		icon = GFX_goal_continuous_naval_production
-		x = 1
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = DSR_install_eco_friendly_wood_veneer  }
-	}
-
-	#Commandeer Civilian Laptops
-	focus = {
-		id = DSR_commandeer_civilian_laptops
-		icon = GFX_DSR_commandeer_civilian_laptops-646170
-		x = 5
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = DSR_the_1460_day_plan  }
-	}
-
-	#Send the Kids to Middle School
-	focus = {
-		id = DSR_send_the_kids_to_middle_school
-		icon = GFX_focus_generic_military_academy
-		x = 5
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = DSR_commandeer_civilian_laptops  }
-	}
-
-	#Outlaw Fortnite
-	focus = {
-		id = DSR_outlaw_fortnite
-		icon = GFX_goal_generic_major_alliance
-		x = 5
-		y = 5
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = DSR_send_the_kids_to_high_school  } prerequisite = { focus = DSR_forge_some_rubber  }
-	}
-
-	#Send the Kids to High School
-	focus = {
-		id = DSR_send_the_kids_to_high_school
-		icon = GFX_DSR_send_the_kids_to_high_school-645738
-		x = 5
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = DSR_send_the_kids_to_middle_school  }
-	}
-
-	#Send the Farmers to the Factories
-	focus = {
-		id = DSR_send_the_farmers_to_the_factories
-		icon = GFX_DSR_send_the_farmers_to_the_factories-645921
-		x = 3
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = DSR_the_1460_day_plan  } prerequisite = { focus = DSR_utilize_galvanized_square_steel  }
-	}
-
-	#Forge Some Rubber
-	focus = {
-		id = DSR_forge_some_rubber
-		icon = GFX_DSR_forge_some_rubber-645604
-		x = 7
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = DSR_the_1460_day_plan  } prerequisite = { focus = DSR_send_the_kids_to_middle_school  }
-	}
-
-	#Create the Military-Industrial Complex
-	focus = {
-		id = DSR_create_the_militaryindustrial_complex
-		icon = GFX_focus_spa_the_spanish_miracle
 		x = 2
 		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
+		prerequisite = { focus = DSR_install_eco_friendly_wood_veneer  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			
+			add_timed_idea = {
+			    idea = debt_repayments_to_aunt
+			    days = 360
+			}
+			
+			
+			
+		}
+	}
+
+	#Commandeer Civilian Laptops
+	focus = {
+		id = DSR_commandeer_civilian_laptops
+		icon = GFX_DSR_commandeer_civilian_laptops-646170
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = DSR_the_1460_day_plan  }
+		completion_reward = {
+			add_research_slot = 1
+			
+			add_stability = -0.1
+			
+			add_war_support = -0.1
+			
+			
+		}
+	}
+
+	#Send the Kids to Middle School
+	focus = {
+		id = DSR_send_the_kids_to_middle_school
+		icon = GFX_focus_generic_military_academy
+		x = 8
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = DSR_commandeer_civilian_laptops  }
+		available = {
+			num_of_factories > 20
+			
+			
+		}
+		completion_reward = {
+			
+			
+			
+			add_ideas = middle_school_education
+			
+			
+			
+		}
+	}
+
+	#Outlaw Fortnite
+	focus = {
+		id = DSR_outlaw_fortnite
+		icon = GFX_goal_generic_major_alliance
+		x = 8
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = DSR_send_the_kids_to_high_school  } prerequisite = { focus = DSR_forge_some_rubber  }
+		available = {
+			has_stability > 0.35
+			
+			has_war_support > 0.35
+			
+			has_political_power > 250
+			
+			
+		}
+		completion_reward = {
+			add_stability = -0.3
+			add_war_support = -0.3
+			
+			add_political_power = -250
+			
+			
+		}
+	}
+
+	#Send the Kids to High School
+	focus = {
+		id = DSR_send_the_kids_to_high_school
+		icon = GFX_DSR_send_the_kids_to_high_school-645738
+		x = 8
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = DSR_send_the_kids_to_middle_school  }
+		available = {
+			num_of_factories > 30
+		}
+		completion_reward = {
+			add_stability = -0.1
+			
+			add_ideas = high_school_education
+			
+			
+			
+			add_research_slot = 1
+			
+			
+		}
+	}
+
+	#Send the Farmers to the Factories
+	focus = {
+		id = DSR_send_the_farmers_to_the_factories
+		icon = GFX_DSR_send_the_farmers_to_the_factories-645921
+		x = 5
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_the_1460_day_plan  } prerequisite = { focus = DSR_utilize_galvanized_square_steel  }
+		completion_reward = {
+			add_stability = -0.1
+			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_war_support = -0.1
+			
+		}
+	}
+
+	#Forge Some Rubber
+	focus = {
+		id = DSR_forge_some_rubber
+		icon = GFX_DSR_forge_some_rubber-645604
+		x = 10
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_the_1460_day_plan  } prerequisite = { focus = DSR_send_the_kids_to_middle_school  }
+		available = {
+			has_tech = rubber_processing
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Create the Military-Industrial Complex
+	focus = {
+		id = DSR_create_the_militaryindustrial_complex
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 3
+		y = 6
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
 		prerequisite = { focus = DSR_get_borrowed_screws  } prerequisite = { focus = DSR_send_the_farmers_to_the_factories  }
+		available = {
+			num_of_factories > 50
+			
+			
+		}
+		completion_reward = {
+			add_ideas = militaryindustrial_complex
+			
+			
+			
+		}
 	}
 
 	#Expand the Rubber Plants
 	focus = {
 		id = DSR_expand_the_rubber_plants
 		icon = GFX_DSR_expand_the_rubber_plants-645633
-		x = 7
-		y = 5
+		x = 10
+		y = 6
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = DSR_forge_some_rubber  }
+		prerequisite = { focus = DSR_forge_some_rubber  } prerequisite = { focus = DSR_send_the_kids_to_high_school  }
+		available = {
+			has_tech = improved_rubber_processing
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Touch Grass
 	focus = {
 		id = DSR_touch_grass
 		icon = GFX_DSR_touch_grass-646299
-		x = 5
-		y = 6
+		x = 7
+		y = 7
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = DSR_outlaw_fortnite  }
+		prerequisite = { focus = DSR_outlaw_fortnite  } prerequisite = { focus = DSR_legalize_edging  focus = DSR_mandate_a_gf_or_bf  }
+		completion_reward = {
+			add_stability = 0.4
+			
+			add_war_support = 0.4
+			
+			
+			add_research_slot = 1
+			
+			
+		}
 	}
 
 	#Legalize Edging
 	focus = {
 		id = DSR_legalize_edging
 		icon = GFX_focus_generic_provoke_border_clashes
-		x = 3
-		y = 4
-		cost = 10
+		x = 6
+		y = 5
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = DSR_send_the_farmers_to_the_factories  }
+		available = {
+			has_political_power > 100
+		}
+		completion_reward = {
+			add_stability = 0.25
+			
+			
+			add_war_support = 0.15
+			
+			
+			add_political_power = -100
+			
+			
+		}
+	}
+
+	#Mandate a GF or BF
+	focus = {
+		id = DSR_mandate_a_gf_or_bf
+		icon = GFX_focus_hol_the_only_man_in_the_dutch_government
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = DSR_send_the_farmers_to_the_factories  }
+		mutually_exclusive = { focus = DSR_legalize_edging  }
+		available = {
+			has_political_power > 100
+			
+			
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+			         add_manpower = 10000
+			}
+			
+			random_owned_controlled_state = {
+			         add_manpower = 10000
+			}
+			
+			random_owned_controlled_state = {
+			         add_manpower = 10000
+			}
+			
+			random_owned_controlled_state = {
+			         add_manpower = 10000
+			}
+			
+			random_owned_controlled_state = {
+			         add_manpower = 10000
+			}
+			
+			random_owned_controlled_state = {
+			         add_manpower = 10000
+			}
+			
+			
+			add_timed_idea = {
+			    idea = mandated_gf_or_bf
+			    days = 360
+			}
+			
+			
+			
+			add_political_power = -100
+			
+			
+		}
+	}
+
+	#More Galvanized Square Steel
+	focus = {
+		id = DSR_more_galvanized_square_steel
+		icon = GFX_focus_generic_industry_2
+		x = 1
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_utilize_galvanized_square_steel  }
+		available = {
+			num_of_civilian_factories > 15
+			
+			
+		}
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = using_galvanized_square_steel
+			    add_idea = improved_galvanized_square_steel_usage
+			}
+			
+			
+			
+		}
+	}
+
+	#A Lot More Galvanized Square Steel
+	focus = {
+		id = DSR_a_lot_more_galvanized_square_steel
+		icon = GFX_focus_generic_industry_3
+		x = 0
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = DSR_more_galvanized_square_steel  }
+		available = {
+			num_of_civilian_factories > 30
+		}
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = improved_galvanized_square_steel_usage
+			    add_idea = fantastic_galvanized_square_steel_usage
+			}
+			
+			
+			
+		}
 	}
 
 }

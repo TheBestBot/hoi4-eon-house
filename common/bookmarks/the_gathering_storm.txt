@@ -1,0 +1,14 @@
+bookmarks = {
+	bookmark = {
+		name = "the_beginning_name"
+		desc = "the_beginning_desc"
+		date = 1936.1.1.12
+	picture = "the_beginning-1"
+		default_country = "DSR"
+		default = yes
+		"DSR" = {
+			history = "the_beginning_DSR"
+			ideology = democratic
+		}
+	}
+}

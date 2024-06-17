@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Not Dan
+	SpriteType = { 
+		name = "UBVnLQba-1104"
+		texturefile = "gfx/interface/ideas/DSR/UBVnLQba-1104.dds"
+	}
+
+ 
+ }

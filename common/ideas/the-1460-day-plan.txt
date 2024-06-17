@@ -1,0 +1,152 @@
+ideas = {
+	army_chief = {
+
+		unnamed = {
+			picture = unnamed-1108
+			cost = 150
+		}
+
+	}
+	country = {
+
+		the_1460_day_long_plan = {
+			picture = the_1460_day_long_plan-1060
+			modifier = {
+				production_speed_buildings_factor = 0.3
+
+
+consumer_goods_factor = -0.1
+
+
+			}
+		}
+
+		militaryindustrial_complex = {
+			picture = militaryindustrial_complex-1079
+			modifier = {
+				industrial_capacity_factory = 0.3
+
+
+global_building_slots_factor = 0.3
+
+political_power_cost = 0.4
+
+
+
+			}
+		}
+
+		using_galvanized_square_steel = {
+			picture = using_galvanized_square_steel-1468
+			modifier = {
+				global_building_slots = 1
+
+global_building_slots_factor = 0.2
+
+
+			}
+		}
+
+		middle_school_education = {
+			picture = middle_school_education-644818
+			modifier = {
+				research_speed_factor = 0.2
+
+
+			}
+		}
+
+		using_eco_friendly_wood_veneer = {
+			picture = using_eco_friendly_wood_veneer-1193
+			modifier = {
+				consumer_goods_factor = -0.1
+
+
+
+			}
+		}
+
+		high_school_education = {
+			picture = high_school_education-1477
+			modifier = {
+				research_speed_factor = 0.2
+
+planning_speed = 0.2
+ 
+
+			}
+		}
+
+		debt_repayments_to_aunt = {
+			picture = debt_repayments_to_aunt-1232
+			modifier = {
+				research_speed_factor = -0.6
+
+consumer_goods_factor = 0.5
+
+production_speed_buildings_factor = -0.2 
+
+
+civilian_factory_use = 7
+
+
+			}
+		}
+
+		mandated_gf_or_bf = {
+			picture = mandated_gf_or_bf-1297
+			modifier = {
+				monthly_population = 2.0
+
+
+			}
+			on_remove = {
+				add_stability = 0.15
+
+add_war_support = 0.15
+
+
+			}
+		}
+
+		improved_galvanized_square_steel_usage = {
+			picture = improved_galvanized_square_steel_usage-1468
+			modifier = {
+				global_building_slots = 2
+
+global_building_slots_factor = 0.4
+
+
+			}
+		}
+
+		fantastic_galvanized_square_steel_usage = {
+			picture = fantastic_galvanized_square_steel_usage-1468
+			modifier = {
+				global_building_slots = 3
+
+global_building_slots_factor = 0.6
+
+
+			}
+		}
+
+	}
+	theorist = {
+
+		wiYaqsLE = {
+			picture = wiYaqsLE-1104
+			available = {
+				every_country = {
+
+}
+
+			}
+			modifier = {
+				land_doctrine_cost_factor = -0.1naval_doctrine_cost_factor = -0.1air_doctrine_cost_factor = -0.1
+
+
+			}
+		}
+	}
+}

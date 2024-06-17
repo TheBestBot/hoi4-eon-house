@@ -1,0 +1,36 @@
+characters = {	unnamed = {
+		name = unnamed
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/the-1460-day-plan-ideas/unnamed-1108.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = unnamed
+			cost = 150
+		}
+	}
+	wiYaqsLE = {
+		name = wiYaqsLE
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/the-1460-day-plan-ideas/wiYaqsLE-1104.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = wiyaqsle
+			available = {
+				every_country = {
+
+}
+
+			}
+			modifier = {
+				land_doctrine_cost_factor = -0.1naval_doctrine_cost_factor = -0.1air_doctrine_cost_factor = -0.1
+
+
+			}
+		}
+	}

@@ -1,0 +1,75 @@
+spriteTypes = { 
+	##Icon For: Unnamed
+	SpriteType = { 
+		name = "GFX_idea_unnamed-1108"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/unnamed-1108.dds"
+	}
+
+	##Icon For: The 1460 Day Long Plan
+	SpriteType = { 
+		name = "GFX_idea_the_1460_day_long_plan-1060"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/the_1460_day_long_plan-1060.dds"
+	}
+
+	##Icon For: Military-Industrial Complex
+	SpriteType = { 
+		name = "GFX_idea_militaryindustrial_complex-1079"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/militaryindustrial_complex-1079.dds"
+	}
+
+	##Icon For: Using Galvanized Square Steel
+	SpriteType = { 
+		name = "GFX_idea_using_galvanized_square_steel-1468"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/using_galvanized_square_steel-1468.dds"
+	}
+
+	##Icon For: Middle School Education
+	SpriteType = { 
+		name = "GFX_idea_middle_school_education-644818"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/middle_school_education-644818.dds"
+	}
+
+	##Icon For: Using Eco Friendly Wood Veneer
+	SpriteType = { 
+		name = "GFX_idea_using_eco_friendly_wood_veneer-1193"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/using_eco_friendly_wood_veneer-1193.dds"
+	}
+
+	##Icon For: High School Education
+	SpriteType = { 
+		name = "GFX_idea_high_school_education-1477"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/high_school_education-1477.dds"
+	}
+
+	##Icon For: Debt Repayments To Aunt
+	SpriteType = { 
+		name = "GFX_idea_debt_repayments_to_aunt-1232"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/debt_repayments_to_aunt-1232.dds"
+	}
+
+	##Icon For: Mandated GF or BF
+	SpriteType = { 
+		name = "GFX_idea_mandated_gf_or_bf-1297"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/mandated_gf_or_bf-1297.dds"
+	}
+
+	##Icon For: Improved Galvanized Square Steel Usage
+	SpriteType = { 
+		name = "GFX_idea_improved_galvanized_square_steel_usage-1468"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/improved_galvanized_square_steel_usage-1468.dds"
+	}
+
+	##Icon For: Fantastic Galvanized Square Steel Usage
+	SpriteType = { 
+		name = "GFX_idea_fantastic_galvanized_square_steel_usage-1468"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/fantastic_galvanized_square_steel_usage-1468.dds"
+	}
+
+	##Icon For: Unnamed
+	SpriteType = { 
+		name = "GFX_idea_wiYaqsLE-1104"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/wiYaqsLE-1104.dds"
+	}
+
+ 
+ }

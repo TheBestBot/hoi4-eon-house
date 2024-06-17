@@ -1,45 +1,49 @@
-capital = 401
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
-
-oob = "DSR"
-
+﻿oob = "DSR_1936"
+capital = 1
 set_research_slots = 2
-set_stability = 0.3
+set_stability = 0.5
 set_war_support = 0.5
-add_political_power = 150
 set_convoys = 0
 
+
 add_ideas = {
-	#laws
 	volunteer_only
-	free_trade
 	civilian_economy
-
-	#other ideas
-
-
 }
 
-set_technology = {
+	recruit_character = not_dan
 
 
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "DSR_1939"
 }
 
-
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.7.25"
+	election_frequency = 60
+	elections_allowed = yes
+}
 set_popularities = {
 	democratic = 100
-	communism = 0
 	fascism = 0
+	communism = 0
 	neutrality = 0
 }
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1935.1.10"
-	election_frequency = 48
-	elections_allowed = yes
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
 }
+
+
+
