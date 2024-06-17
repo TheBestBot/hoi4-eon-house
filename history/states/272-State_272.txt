@@ -5,8 +5,13 @@ state={
 	provinces={
 		391 585 970 1776 2678 3029 4838 4860 4873 4879 4899 4923 4924 4948 5020 
 	}
-	manpower=5000
+	history = {
+        owner = NIP
+		buildings = {
+			infrastructure = 2
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+        manpower=35000
+        state_category = rual
 }

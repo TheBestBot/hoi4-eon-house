@@ -5,8 +5,10 @@ state={
 	provinces={
 		740 884 1525 4880 4881 4894 4915 4967 5007 
 	}
-	manpower=5000
+	history = {
+        owner = CKE
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=35000
+    state_category = rual
 }

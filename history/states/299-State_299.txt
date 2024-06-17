@@ -5,8 +5,15 @@ state={
 	provinces={
 		433 465 939 1064 1202 2148 2436 2442 2458 2842 3030 3050 4903 4911 5021 5022 5061 5068 5095 5110 5125 5130 5175 5198 
 	}
-	manpower=5000
+	history = {
+        owner = CKE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 3
+		}
+    }
 	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+    manpower=6500
+    state_category = large_town
 }
