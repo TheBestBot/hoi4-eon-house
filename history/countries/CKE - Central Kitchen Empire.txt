@@ -6,7 +6,7 @@ set_war_support = 0.4
 set_convoys = 0
 create_faction = "United Kitchen Empire"
 
-add_to_faction = SCA,WWR,GGE,NIP,WIP
+add_to_faction = SCA,WWR,GGE,WIP,NIP,EFS,LEA,TDL,DRE,SCP,MFP,TCP,COB,DTP,FCP,NWR,DDR,DCC,DRB,LRB
 
 add_ideas = {
 	limited_conscription
@@ -39,6 +39,36 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 
+set_autonomy = {
+	target = EFS
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = LEA
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = TDL
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = DRE
+	autonomous_state = autonomy_dominion
+}
+
+set_autonomy = {
+	target = DRB
+	autonomous_state = autonomy_dominion
+}
+
+set_autonomy = {
+	target = LRB
+	autonomous_state = autonomy_dominion
+}
+
 #Starting tech
 set_technology = {
 }
@@ -59,9 +89,9 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 5
-	fascism = 15
+	fascism = 45
 	communism = 5
-	neutrality = 75
+	neutrality = 45
 }
 
 #Politics for 1939.1.1

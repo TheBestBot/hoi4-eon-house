@@ -116,8 +116,282 @@ global_building_slots_factor = 0.6
 			}
 		}
 
+		the_storm_hits = {
+			picture = the_storm_hits-1236
+			on_remove = {
+				dismantle_faction = yes
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+country_event = civil_war_in_the_central_kitchen_empire.6
+
+D01= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+SCA= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+WWR= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+GGE= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+WIP= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+NIP= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+EFS= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+LEA= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+DRE= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+SCP= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+MFP= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+TCP= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+COB= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+DTP= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+FCP= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+NWR= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+DDR= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+DCC= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+DRB= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+LRB= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+TDL= {
+add_timed_idea = {
+    idea = war_amongst_the_puppets
+    days = 30
+}
+}
+
+			}
+		}
+
+		war_amongst_the_puppets = {
+			picture = war_amongst_the_puppets-1067
+			on_remove = {
+				IF = {
+limit = {TAG = CKE}
+country_event=civil_war_in_the_central_kitchen_empire.7
+}
+declare_war_on = {
+    target = SCA
+    type = annex_everything
+}
+declare_war_on = {
+    target = WWR
+    type = annex_everything
+}
+declare_war_on = {
+    target = GGE
+    type = annex_everything
+}
+declare_war_on = {
+    target = WIP
+    type = annex_everything
+}
+declare_war_on = {
+    target = NIP
+    type = annex_everything
+}
+declare_war_on = {
+    target = EFS
+    type = annex_everything
+}
+declare_war_on = {
+    target = LEA
+    type = annex_everything
+}
+declare_war_on = {
+    target = TDL
+    type = annex_everything
+}
+declare_war_on = {
+    target = DRE
+    type = annex_everything
+}
+declare_war_on = {
+    target = SCP
+    type = annex_everything
+}
+declare_war_on = {
+    target = MFP
+    type = annex_everything
+}
+declare_war_on = {
+    target = TCP
+    type = annex_everything
+}
+declare_war_on = {
+    target = COB
+    type = annex_everything
+}
+declare_war_on = {
+    target = DTP
+    type = annex_everything
+}
+declare_war_on = {
+    target = FCP
+    type = annex_everything
+}
+declare_war_on = {
+    target = NWR
+    type = annex_everything
+}
+declare_war_on = {
+    target = DDR
+    type = annex_everything
+}
+declare_war_on = {
+    target = DCC
+    type = annex_everything
+}
+declare_war_on = {
+    target = DRB
+    type = annex_everything
+}
+declare_war_on = {
+    target = LRB
+    type = annex_everything
+}
+			}
+		}
+
 		the_coming_storm = {
 			picture = the_coming_storm-1055
+			modifier = {
+				political_power_gain = 0.5
+
+stability_weekly = -0.003
+
+
+			}
+			on_remove = {
+				start_civil_war = {
+    ideology = fascism
+    size = 0.6
+    army_ratio = 0.6
+    air_ratio = 0.6
+}
+add_timed_idea = {
+    idea = the_storm_hits
+    days = 15
+}
+
+end_puppet = SCA
+end_puppet = WWR
+end_puppet = GGE
+end_puppet = WIP
+end_puppet = NIP
+end_puppet = EFS
+end_puppet = TDL
+end_puppet = DRE
+end_puppet = LEA
+end_puppet = DRB
+end_puppet = LRB
+
+DRE = {
+end_puppet = SCP
+end_puppet = MFP
+end_puppet = TCP
+end_puppet = COB
+end_puppet = DTP
+end_puppet = FCP
+end_puppet = NWR
+end_puppet = DDR
+end_puppet = DCC
+}
+			}
+			}
 		}
 	}
 }

@@ -1,0 +1,227 @@
+add_namespace = civil_war_in_the_central_kitchen_empire
+
+#Instability in the Our Empire
+country_event = {
+	id = civil_war_in_the_central_kitchen_empire.1
+	title = civil_war_in_the_central_kitchen_empire.1.t
+	desc = civil_war_in_the_central_kitchen_empire.1.d
+
+	picture = instability_in_the_our_empire-1
+	fire_only_once = yes
+	trigger = {
+		tag = CKE
+has_political_power > 50
+
+	}
+	fire_for_sender = yes
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_timed_idea = {
+    idea = the_coming_storm
+    days = 140
+}
+
+
+
+		hidden_effect = {
+			news_event = civil_war_in_the_central_kitchen_empire.2
+		}
+	}
+}
+
+#Instability in the Kitchen Empire
+news_event = {
+	id = civil_war_in_the_central_kitchen_empire.2
+	title = civil_war_in_the_central_kitchen_empire.2.t
+	desc = civil_war_in_the_central_kitchen_empire.2.d
+
+	picture = instability_in_the_kitchen_empire-1
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Civil War!
+country_event = {
+	id = civil_war_in_the_central_kitchen_empire.3
+	title = civil_war_in_the_central_kitchen_empire.3.t
+	desc = civil_war_in_the_central_kitchen_empire.3.d
+
+	picture = civil_war-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	fire_for_sender = yes
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			news_event = civil_war_in_the_central_kitchen_empire.4
+		}
+	}
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.3.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			news_event = civil_war_in_the_central_kitchen_empire.4
+		}
+	}
+}
+
+#Civil War Erupts in the CKE
+news_event = {
+	id = civil_war_in_the_central_kitchen_empire.4
+	title = civil_war_in_the_central_kitchen_empire.4.t
+	desc = civil_war_in_the_central_kitchen_empire.4.d
+
+	picture = civil_war_erupts_in_the_cke-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Disillusion of the Kitchen Empire
+news_event = {
+	id = civil_war_in_the_central_kitchen_empire.5
+	title = civil_war_in_the_central_kitchen_empire.5.t
+	desc = civil_war_in_the_central_kitchen_empire.5.d
+
+	picture = disillusion_of_the_kitchen_empire-1
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Our Empire Collapses
+country_event = {
+	id = civil_war_in_the_central_kitchen_empire.6
+	title = civil_war_in_the_central_kitchen_empire.6.t
+	desc = civil_war_in_the_central_kitchen_empire.6.d
+
+	picture = our_empire_collapses-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	fire_for_sender = yes
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.6.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			news_event = civil_war_in_the_central_kitchen_empire.5
+		}
+	}
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.6.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			news_event = civil_war_in_the_central_kitchen_empire.5
+		}
+	}
+}
+
+#Total War Declared
+country_event = {
+	id = civil_war_in_the_central_kitchen_empire.7
+	title = civil_war_in_the_central_kitchen_empire.7.t
+	desc = civil_war_in_the_central_kitchen_empire.7.d
+
+	picture = total_war_declared-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	fire_for_sender = yes
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.7.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			news_event=civil_war_in_the_central_kitchen_empire.8
+
+		}
+	}
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.7.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			news_event=civil_war_in_the_central_kitchen_empire.8
+
+		}
+	}
+}
+
+#Kitchen Empire in a 25 Way Civil War
+news_event = {
+	id = civil_war_in_the_central_kitchen_empire.8
+	title = civil_war_in_the_central_kitchen_empire.8.t
+	desc = civil_war_in_the_central_kitchen_empire.8.d
+
+	picture = kitchen_empire_in_a_25_way_civil_war-1
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = civil_war_in_the_central_kitchen_empire.8.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

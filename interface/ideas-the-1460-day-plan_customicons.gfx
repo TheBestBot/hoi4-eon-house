@@ -59,6 +59,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/fantastic_galvanized_square_steel_usage-1468.dds"
 	}
 
+	##Icon For: THE STORM HITS
+	SpriteType = { 
+		name = "GFX_idea_the_storm_hits-1236"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/the_storm_hits-1236.dds"
+	}
+
+	##Icon For: War Amongst the Puppets
+	SpriteType = { 
+		name = "GFX_idea_war_amongst_the_puppets-1067"
+		texturefile = "gfx/interface/ideas/the-1460-day-plan-ideas/war_amongst_the_puppets-1067.dds"
+	}
+
 	##Icon For: The Coming Storm
 	SpriteType = { 
 		name = "GFX_idea_the_coming_storm-1055"

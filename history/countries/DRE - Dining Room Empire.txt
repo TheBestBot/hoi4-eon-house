@@ -16,6 +16,51 @@ add_ideas = {
 }
 
 
+set_autonomy = {
+	target = SCP
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = MFP
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = TCP
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = COB
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = DTP
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = FCP
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = NWR
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = DDR
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = DCC
+	autonomous_state = autonomy_puppet
+}
+
 
 
 #For start date 1939.1.1

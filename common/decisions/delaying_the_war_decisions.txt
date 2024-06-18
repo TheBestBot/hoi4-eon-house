@@ -1,0 +1,92 @@
+delaying_the_war = {
+	initiate_diplomatic_talks = {
+		ai_will_do = {
+    		base = 10000
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = 70
+		available = {
+			has_idea = the_coming_storm
+
+
+		}
+		complete_effect = {
+			modify_timed_idea = {
+    idea = the_coming_storm
+    days = 70
+}
+		}
+	}
+	deploy_the_cia = {
+		ai_will_do = {
+    		base = 10000
+		}
+		cost = 100
+		fire_only_once = yes
+		days_remove = 70
+		available = {
+			has_idea = the_coming_storm
+
+		}
+		complete_effect = {
+			modify_timed_idea = {
+    idea = the_coming_storm
+    days = 70
+}
+		}
+	}
+	bribe_officials = {
+		ai_will_do = {
+    		base = 500
+		}
+		cost = 150
+		fire_only_once = yes
+		available = {
+			has_idea = the_coming_storm
+
+		}
+		complete_effect = {
+			modify_timed_idea = {
+    idea = the_coming_storm
+    days = 70
+}
+		}
+	}
+	launch_covert_raids = {
+		ai_will_do = {
+    		base = 200
+		}
+		cost = 200
+		fire_only_once = yes
+		days_remove = 70
+		available = {
+			has_idea = the_coming_storm
+
+		}
+		complete_effect = {
+			modify_timed_idea = {
+    idea = the_coming_storm
+    days = 70
+}
+		}
+	}
+	reform_the_kgb = {
+		ai_will_do = {
+    		base = 70
+		}
+		cost = 300
+		fire_only_once = yes
+		days_remove = 70
+		available = {
+			has_idea = the_coming_storm
+
+		}
+		complete_effect = {
+			modify_timed_idea = {
+    idea = the_coming_storm
+    days = 70
+}
+		}
+	}
+}

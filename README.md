@@ -1,6 +1,9 @@
 # hoi4-eon-house
 A HOI4 mod that brings a map of the legendary eon's house to the game.
 
+# v0.2
+kitchen added
+
 # v0.1.4
 dan loc!
 

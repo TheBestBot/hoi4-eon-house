@@ -1,0 +1,51 @@
+spriteTypes = { 
+	##Icon For: Instability in the Our Empire
+	SpriteType = { 
+		name = "instability_in_the_our_empire-1"
+		texturefile = "gfx/interface/events/civil_war_in_the_central_kitchen_empire-event/instability_in_the_our_empire-1.dds"
+	}
+
+	##Icon For: Instability in the Kitchen Empire
+	SpriteType = { 
+		name = "instability_in_the_kitchen_empire-1"
+		texturefile = "gfx/interface/events/civil_war_in_the_central_kitchen_empire-event/instability_in_the_kitchen_empire-1.dds"
+	}
+
+	##Icon For: Civil War!
+	SpriteType = { 
+		name = "civil_war-1"
+		texturefile = "gfx/interface/events/civil_war_in_the_central_kitchen_empire-event/civil_war-1.dds"
+	}
+
+	##Icon For: Civil War Erupts in the CKE
+	SpriteType = { 
+		name = "civil_war_erupts_in_the_cke-1"
+		texturefile = "gfx/interface/events/civil_war_in_the_central_kitchen_empire-event/civil_war_erupts_in_the_cke-1.dds"
+	}
+
+	##Icon For: Disillusion of the Kitchen Empire
+	SpriteType = { 
+		name = "disillusion_of_the_kitchen_empire-1"
+		texturefile = "gfx/interface/events/civil_war_in_the_central_kitchen_empire-event/disillusion_of_the_kitchen_empire-1.dds"
+	}
+
+	##Icon For: Our Empire Collapses
+	SpriteType = { 
+		name = "our_empire_collapses-1"
+		texturefile = "gfx/interface/events/civil_war_in_the_central_kitchen_empire-event/our_empire_collapses-1.dds"
+	}
+
+	##Icon For: Total War Declared
+	SpriteType = { 
+		name = "total_war_declared-1"
+		texturefile = "gfx/interface/events/civil_war_in_the_central_kitchen_empire-event/total_war_declared-1.dds"
+	}
+
+	##Icon For: Kitchen Empire in a 25 Way Civil War
+	SpriteType = { 
+		name = "kitchen_empire_in_a_25_way_civil_war-1"
+		texturefile = "gfx/interface/events/civil_war_in_the_central_kitchen_empire-event/kitchen_empire_in_a_25_way_civil_war-1.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,5 @@
+delaying_the_war = {
+	visible = {
+		has_idea = the_coming_storm
+	}
+}
