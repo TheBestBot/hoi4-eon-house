@@ -262,86 +262,89 @@ add_timed_idea = {
 				IF = {
 limit = {TAG = CKE}
 country_event=civil_war_in_the_central_kitchen_empire.7
+add_named_threat = { threat = -950 name = "German Neutrality" }
+
+
 }
 declare_war_on = {
     target = SCA
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = WWR
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = GGE
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = WIP
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = NIP
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = EFS
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = LEA
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = TDL
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = DRE
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = SCP
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = MFP
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = TCP
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = COB
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = DTP
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = FCP
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = NWR
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = DDR
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = DCC
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = DRB
-    type = annex_everything
+    type = civil_war
 }
 declare_war_on = {
     target = LRB
-    type = annex_everything
+    type = civil_war
 }
 			}
 		}
