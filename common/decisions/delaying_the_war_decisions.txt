@@ -1,8 +1,5 @@
 delaying_the_war = {
 	initiate_diplomatic_talks = {
-		ai_will_do = {
-    		base = 10000
-		}
 		cost = 50
 		fire_only_once = yes
 		days_remove = 70
@@ -19,9 +16,6 @@ delaying_the_war = {
 		}
 	}
 	deploy_the_cia = {
-		ai_will_do = {
-    		base = 10000
-		}
 		cost = 100
 		fire_only_once = yes
 		days_remove = 70
@@ -37,9 +31,6 @@ delaying_the_war = {
 		}
 	}
 	bribe_officials = {
-		ai_will_do = {
-    		base = 500
-		}
 		cost = 150
 		fire_only_once = yes
 		available = {
@@ -54,9 +45,6 @@ delaying_the_war = {
 		}
 	}
 	launch_covert_raids = {
-		ai_will_do = {
-    		base = 200
-		}
 		cost = 200
 		fire_only_once = yes
 		days_remove = 70
@@ -72,9 +60,6 @@ delaying_the_war = {
 		}
 	}
 	reform_the_kgb = {
-		ai_will_do = {
-    		base = 70
-		}
 		cost = 300
 		fire_only_once = yes
 		days_remove = 70

@@ -1,5 +1,8 @@
 ﻿l_english:
 the_beginning_of_the_lower_war_name:0 "The Beginning of the Lower War"
 the_beginning_of_the_lower_war_desc:0 "Tensions rise on the first floor in the eon house, and will eventually have to come to ahead."
-the_beginning_of_the_lower_war_DSR:0 "The Southern Dan Republic is envois of the northern kitchen empires."
-the_beginning_of_the_lower_war_CKE:0 "The Central Kitchen Empire is on the brink of collapse."
+the_beginning_of_the_lower_war_DSR:0 "The Southern Dan Republic is a far more populated state than its northern sister. However, it lacks developed industry and infrastructure. "
+the_beginning_of_the_lower_war_DNR:0 "The Northern Dan Republic is less populated than its southern sister. However, it has a decade long advantage in  developed industry and infrastructure."
+the_beginning_of_the_lower_war_DRE:0 "Many years ago, Central Kitchen Empire created the Dining Room Empire to lead its northern puppets and reduce strain on its bureaucracy. After many years tensions between the two states resulted in more autonomy for the DRE and the formation of DMZ between the two Empires. While still technically allied the CKE and DRE conceal hatred for each other."
+the_beginning_of_the_lower_war_CKE:0 "In early history the name_here, what is now the Central Kitchen Empire, conquered much of the 1st floor of the Eon House setting up various satellite states and puppet governments. The golden days are now long past and a crisis is looming."
+the_beginning_of_the_lower_war_COB:0 "A state split by the kitchen empire."

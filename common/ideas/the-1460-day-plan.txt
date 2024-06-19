@@ -391,7 +391,6 @@ end_puppet = DDR
 end_puppet = DCC
 }
 			}
-			}
 		}
 	}
 }

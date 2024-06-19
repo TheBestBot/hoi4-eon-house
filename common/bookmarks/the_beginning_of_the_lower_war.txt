@@ -10,9 +10,22 @@ bookmarks = {
 			history = "the_beginning_of_the_lower_war_DSR"
 			ideology = democratic
 		}
+		"DNR" = {
+			history = "the_beginning_of_the_lower_war_DNR"
+			ideology = democratic
+		}
+		"DRE" = {
+			history = "the_beginning_of_the_lower_war_DRE"
+			ideology = neutrality
+		}
 		"CKE" = {
 			history = "the_beginning_of_the_lower_war_CKE"
 			ideology = neutrality
+		}
+		"COB" = {
+			history = "the_beginning_of_the_lower_war_COB"
+			ideology = fascism
+			minor = yes
 		}
 	}
 }

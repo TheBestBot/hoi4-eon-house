@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Send Everyone!!!
+	SpriteType = { 
+		name = "GFX_idea_send_everyone-1"
+		texturefile = "gfx/interface/ideas/high-command-ideas/send_everyone-1.dds"
+	}
+
+ 
+ }

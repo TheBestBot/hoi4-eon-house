@@ -16,14 +16,6 @@ ideas = {
 	industrial_concern = {
 }
 	theorist = {
-		not_dan = {
-			allowed = {
-				tag = DSR
-			}
-			traits = { military_theorist}
-			ledger = army
-			picture = "pstYuBro-1104"
-		}
 }
 	army_chief = {
 }

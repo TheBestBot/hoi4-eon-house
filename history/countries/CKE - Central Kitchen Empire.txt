@@ -6,7 +6,6 @@ set_war_support = 0.4
 set_convoys = 0
 create_faction = "United Kitchen Empire"
 
-add_to_faction = SCA,WWR,GGE,WIP,NIP,EFS,LEA,TDL,DRE,SCP,MFP,TCP,COB,DTP,FCP,NWR,DDR,DCC,DRB,LRB
 
 add_ideas = {
 	limited_conscription

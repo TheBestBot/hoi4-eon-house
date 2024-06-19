@@ -1,18 +1,1 @@
-characters = {	not_dan = {
-		name = not_dan
-		portraits = {
-			army = {
-			small = "gfx/interface/ideas/DSR/pstYuBro-1104.dds"
-			}
-		}
-		advisor = {
-			slot = theorist
-			ledger = army
-			idea_token = not_dan
-			allowed = {
-				original_tag = DSR
-			}
-			traits = { military_theorist}
-		}
-	}
-}
+characters = {}
