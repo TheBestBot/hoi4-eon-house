@@ -1,5 +1,8 @@
 
 state={
+	history = {
+        owner = USH
+    }
 	id=141
 	name="STATE_141"
 	provinces={
