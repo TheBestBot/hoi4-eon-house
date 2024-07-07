@@ -1,0 +1,8 @@
+gamblecore_category = {
+	visible = {
+		always=yes
+	}
+	icon = generic_decision
+
+	priority = 100
+}

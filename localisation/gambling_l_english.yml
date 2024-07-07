@@ -1,0 +1,39 @@
+﻿l_english:
+
+ # DECISIONS
+ gamblecore_category: "Gambling!!!"
+ gamblecore_category_desc: "Commit the gamble! \n\nYou have [?Root.eonH_gamblecore_amount|0H] attempt(s) to be disapointed."
+ eonH_decision_gamblecore_acquirebox: "Purchase Lootbox"
+ eonH_gamblecore_acquirebox: "Buy a lootbox.\n"
+ eonH_decision_gamblecore_openbox: "Open Lootbox"
+ eonH_tooltip_gamblecore_openbox: "Opens a Lootbox; also makes you disapointed."
+ 
+ # CUSTOM TOOLTIPS
+ eonH_tooltip_scammed: "It's Dans Fault\n"
+
+ # IDEAS
+
+
+ # DEFAULT
+ eonH.gamblecore.event.title: "YOU got MAIL"
+ eonH.gamblecore.event.option.common: "SCAMMED!"
+ eonH.gamblecore.event.option.rare: "A disapointment."
+ eonH.gamblecore.event.option.epic: "Less disapointing."
+ eonH.gamblecore.event.option.legendary: "nice"
+ eonH.gamblecore.event.option.mythical: "YIPPEEEEE!"
+
+ #CONTENTS
+ #Common
+ eonH.gamblecore.event.1.description: "§GCOMMON§! "
+ 
+ #Rare
+ eonH.gamblecore.event.9.description: "§BRARE§! "
+
+ #Epic
+ eonH.gamblecore.event.17.description: "§0EPIC§! "
+
+ #Legendary
+ eonH.gamblecore.event.24.description: "§OLEGENDARY§! "
+
+ #Mythical
+ eonH.gamblecore.event.28.description: "§RMYTHICAL§! YIPPEEE \n\n"IT DIDN'T SUCK!""

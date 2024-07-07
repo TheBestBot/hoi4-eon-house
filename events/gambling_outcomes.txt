@@ -1,0 +1,16 @@
+add_namespace = eonH.gamblecore.event
+
+country_event = {
+
+	id = eonH.gamblecore.event.1
+	title = eonH.gamblecore.event.title
+	desc = eonH.gamblecore.event.1.description
+
+	is_triggered_only = yes
+
+	option = {
+		name = eonH.gamblecore.event.option.common
+
+		add_political_power = 50
+	}
+}

@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+	
+		ideaName = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = generic_idea
+			
+			modifier = {
+
+			}
+		}
+	}
+}

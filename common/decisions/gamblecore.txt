@@ -1,0 +1,171 @@
+gamblecore_category = {
+
+	eonH_decision_gamblecore_acquirebox = {
+		icon = generic_decision
+		cost = 50
+
+		fire_only_once = no
+		fixed_random_seed = no
+
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+			is_ai = no
+		}
+		visible = {
+			always = yes
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = eonH_gamblecore_acquirebox
+		}
+		
+		remove_effect = {
+			add_to_variable = { var = eonH_gamblecore_amount value = 1 }
+		}
+	}
+	
+	eonH_decision_gamblecore_openbox = {
+		icon = generic_construction
+		cost = 0
+
+		fire_only_once = no
+		fixed_random_seed = no
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		available = {
+			is_ai = no
+			check_variable = { eonH_gamblecore_amount > 0 }
+		}
+
+		visible = {
+			always = yes
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = eonH_tooltip_gamblecore_openbox
+			hidden_effect = {
+				random_list = {
+					50 = {
+						random_list = {
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.1 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.2 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.3 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.4 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.5 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.6 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.7 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.8 }
+							}
+						}
+					}
+					25 = {
+						random_list = {
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.9 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.10 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.11 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.12 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.13 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.14 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.15 }
+							}
+							12.5 = {
+								country_event = { id = eonH.gamblecore.event.16 }
+							}
+						}
+					}
+					15 = {
+						random_list = {
+							15 = {
+								country_event = { id = eonH.gamblecore.event.17 }
+							}
+							10 = {
+								country_event = { id = eonH.gamblecore.event.18 }
+							}
+							15 = {
+								country_event = { id = eonH.gamblecore.event.19 }
+							}
+							15 = {
+								country_event = { id = eonH.gamblecore.event.20 }
+							}
+							15 = {
+								country_event = { id = eonH.gamblecore.event.21 }
+							}
+							15 = {
+								country_event = { id = eonH.gamblecore.event.22 }
+							}
+							15 = {
+								country_event = { id = eonH.gamblecore.event.23 }
+							}
+						}
+					}
+					8 = {
+						random_list = {
+							25 = {
+								country_event = { id = eonH.gamblecore.event.24 }
+							}
+							25 = {
+								country_event = { id = eonH.gamblecore.event.25 }
+							}
+							25 = {
+								country_event = { id = eonH.gamblecore.event.26 }
+							}
+							25 = {
+								country_event = { id = eonH.gamblecore.event.27 }
+							}
+						}
+					}
+					2 = {
+						random_list = {
+							40 = {
+								country_event = { id = eonH.gamblecore.event.28 }
+							}
+							40 = {
+								country_event = { id = eonH.gamblecore.event.29 }
+							}
+							20 = {
+								country_event = { id = eonH.gamblecore.event.30 }
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		remove_effect = {
+			subtract_from_variable = { var = eonH_gamblecore_amount value = 1 }
+		}
+	}
+}
