@@ -3,7 +3,7 @@ state={
 	id=173
 	name="STATE_173"
 	provinces={
-		1602 2020 2602 2637 3857 3898 3964 3978 3985 4007 4013 
+		1602 2020 2602 2637 3857 3898 3964 3978 3985 4007 
 	}
 	manpower=5000
 	buildings_max_level_factor=1.000

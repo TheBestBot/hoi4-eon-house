@@ -2,18 +2,23 @@
 state={
 	id=166
 	name="STATE_166"
-	provinces={
-		890 973 1347 1442 1596 2018 2307 2509 3887 3939 3952 3997 3998 4060 4061 4062 4107 4111 4118 4119 
-	}
-	history = {
-        owner = LRB
+
+	history={
+		owner = LRB
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
-    }
+
+	}
+
+	provinces={
+		973 1347 1442 3887 3939 3952 3997 3998 4060 4061 4107 4111 4118 4119 
+	}
+	manpower=3500000
 	buildings_max_level_factor=1.000
-    manpower=3500000
-    state_category = large_city
+	state_category=large_city
+	local_supplies=0.000
 }

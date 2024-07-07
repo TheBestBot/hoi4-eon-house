@@ -1,10 +1,17 @@
+
 state={
 	id=155
 	name="STATE_155"
 	provinces={
-		276 1478 1716 2491 2741 3697 3725 3791 3837 
+		890 1596 2018 2307 2509 4062 
 	}
+	history = {
+        owner = LRB
+		buildings = {
+			infrastructure = 1
+		}
+    }
 	buildings_max_level_factor=1.000
-        manpower=5000
-        state_category = rural
+    manpower=350000
+    state_category = rural
 }
