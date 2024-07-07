@@ -1,4 +1,4 @@
-version="0.3"
+version="0.3.0"
 name="Eon's House"
 path="mod/hoi4-eon-house"
 tags={
