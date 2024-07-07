@@ -1,1 +1,49 @@
-oob = "USH_1936"capital = 1set_research_slots = 3set_stability = 0.26set_war_support = 0.46set_convoys = 5add_ideas = {	scraping_the_barrel	all_adults_serve	extensive_conscription	limited_conscription	volunteer_only	civilian_economy}#For start date 1939.1.11939.1.1 = {	add_political_power = 1000	oob = "USH_1939"}#Politics for 1936.1.1set_politics = {	ruling_party = democratic	last_election = "1936.1.1"	election_frequency = 48	elections_allowed = yes}set_popularities = {	democratic = 50	fascism = 20	communism = 20	neutrality = 10}#Politics for 1939.1.11939.1.1 = {	set_popularities = {		democratic = 25		fascism = 25		communism = 25		neutrality = 25	}}
+oob = "USH_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.26
+set_war_support = 0.46
+set_convoys = 5
+
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "USH_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 50
+	fascism = 20
+	communism = 20
+	neutrality = 10
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 25
+		fascism = 25
+		communism = 25
+		neutrality = 25
+	}
+}
