@@ -3,6 +3,9 @@ state={
 	history = {
         owner = USH
     }
+	resources = {
+        oil = 4
+    }
 	id=136
 	name="STATE_136"
 	provinces={

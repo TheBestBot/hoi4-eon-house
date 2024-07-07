@@ -2,6 +2,7 @@
 state={
 	history = {
         owner = USH
+		add_core_of = MAT
     }
 	id=213
 	name="STATE_213"

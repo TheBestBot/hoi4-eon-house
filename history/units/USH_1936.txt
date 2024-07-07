@@ -1,10 +1,43 @@
 #Create units
 division_template = {
-	name = "Example Division"
-	division_names_group = "NIP_DIV_0_0"
-
+	name = "United Brigade"
+	division_names_group = "USH_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
 }
 
 #Spawn units
 units = {
+
+	division= {	
+		name = "8. Brigade"				
+		location = 245  # Vienna
+		division_template = "United Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
 }
+}
+
+### Starting Production ###
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "USH"
+		}
+		requested_factories = 4
+		progress = 0.54
+		efficiency = 100
+	}
