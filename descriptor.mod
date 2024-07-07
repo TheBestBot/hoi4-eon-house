@@ -6,7 +6,7 @@ tags={
 	"Utilities"
 }
 picture="blank_map_template_5632x2048.jpg"
-supported_version="1.14.5"
+supported_version="1.14.*"
 
 replace_path="history/states"
 replace_path="history/countries"
