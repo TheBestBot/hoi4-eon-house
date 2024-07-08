@@ -1,9 +1,9 @@
 oob = "MAT_1936"
-capital = 2
+capital = 1
 set_research_slots = 2
 set_stability = 0.43
-set_war_support = 0.87
-set_convoys = 0
+set_war_support = 0.71
+set_convoys = 5
 
 
 add_ideas = {
@@ -26,10 +26,10 @@ add_ideas = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = Communism
-	last_election = "1935.8.1"
-	election_frequency = 60
-	elections_allowed = no
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 10

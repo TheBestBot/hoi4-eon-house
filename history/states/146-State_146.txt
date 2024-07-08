@@ -1,12 +1,15 @@
 state={
-	history = {
-        owner = USH
-    }
 	id=146
 	name="STATE_146"
 	provinces={
 		208 212 504 980 1424 1470 1493 1864 2714 3686 3799 3804 3875 3889 3996 
 	}
+	history = {
+        owner = USH
+		add_core_of = MAT
+		add_core_of = USH
+    }
+	
 	buildings_max_level_factor=1.000
         manpower=5000
         state_category = rural
